@@ -1,159 +1,94 @@
-# Ely's Atsara E-Store
-
-An online e-commerce platform designed to bring Ely's Atsara products to customers through a convenient and accessible digital shopping experience.
+# Mariposa Digital – Rice E-Commerce Platform
 
 ## Overview
 
-**Ely's Atsara E-Store** is a full-stack web application developed to streamline the process of browsing products, managing inventory, and handling customer orders. The system provides a centralized platform for customers and administrators, supporting essential e-commerce operations through an intuitive user interface and a structured backend architecture.
+**Mariposa Digital** is a web-based e-commerce platform designed to simplify the process of purchasing and ordering rice sacks online. The platform provides customers with a convenient way to browse available rice products, view product information, and place orders through a centralized digital storefront.
 
-The application was developed using **Angular** for the frontend and **Java Spring Boot** for the backend, following a structured approach to software engineering, requirements analysis, database design, and application development.
+The system aims to improve the traditional rice-selling and ordering process by providing an accessible online shopping experience while helping administrators manage products, customers, and incoming orders efficiently.
 
-## Technologies Used
+## Key Objectives
 
-### Frontend
-- Angular
-- TypeScript
-- HTML5
-- CSS3
-- Bootstrap
+- Digitize the traditional rice ordering and purchasing process.
+- Provide customers with a convenient online shopping experience.
+- Centralize product and inventory management.
+- Streamline customer orders and administrative operations.
+- Improve accessibility and efficiency through an e-commerce platform.
 
-### Backend
-- Java
-- Spring Boot
-- RESTful API Architecture
+## Core Features
 
-### Development Tools
-- Git and GitHub
-- Visual Studio Code
-- Database Management Tools
+### Customer Features
+- Browse available rice products.
+- View product details and pricing.
+- Select rice varieties and sack quantities.
+- Place orders through the website.
+- Access an organized online shopping experience.
 
-## User Roles
-
-The system implements role-based access control (RBAC) with four primary user roles:
-
-| Role | Description |
-|---|---|
-| Guest | Can browse the available products and explore the store. |
-| Customer | Can access customer-oriented shopping and ordering functionalities. |
-| Admin | Can manage products, inventory, and relevant store operations. |
-| Super Admin | Has elevated administrative privileges and oversees system management. |
-
-## Key Features
-
-- **Product Management** – Create, retrieve, update, and delete product records.
-- **Product Catalog** – Browse and explore available atsara products.
-- **Order Management** – Support the customer ordering workflow.
-- **User Management** – Organize users according to their assigned roles.
-- **Role-Based Access Control** – Restrict functionalities based on user permissions.
-- **Database Integration** – Maintain structured data for products, customers, and orders.
-- **REST API Integration** – Enable communication between the Angular frontend and Spring Boot backend.
+### Administrative Features
+- Manage rice product listings.
+- Update product information and pricing.
+- Monitor and manage customer orders.
+- Maintain product availability and inventory information.
+- Manage relevant e-commerce operations.
 
 ## System Architecture
 
-The application follows a client-server architecture:
+The platform follows a client-server architecture consisting of:
 
-1. **Frontend (Angular)** – Handles the user interface, navigation, and client-side interactions.
-2. **Backend (Spring Boot)** – Processes business logic, application requests, and REST API operations.
-3. **Database** – Stores and manages application data, including product, customer, and order information.
+- **Frontend:** Provides the customer-facing interface and administrative dashboard.
+- **Backend:** Handles business logic, order processing, and application operations.
+- **Database:** Stores product information, customer records, and order details.
+
+## Technology Stack
+
+The following technologies should be updated to reflect the actual implementation:
+
+- Frontend: [Specify framework or technology]
+- Backend: [Specify programming language or framework]
+- Database: [Specify database]
+- Development Tools: Git and GitHub
+
+## Typical Ordering Workflow
+
+1. Customers visit the Mariposa Digital website.
+2. Customers browse the available rice products.
+3. Customers select their preferred rice products and quantities.
+4. Customers proceed with the ordering process.
+5. The system records the order for administrative processing.
+6. Administrators review and manage incoming orders.
 
 ## Project Structure
 
-The project is organized into two primary application components:
-
 ```text
-elys-atsara/
+mariposa-digital/
 │
-├── frontend/          # Angular application
+├── frontend/
 │   ├── src/
-│   ├── angular.json
-│   └── package.json
+│   └── public/
 │
-├── backend/           # Spring Boot application
+├── backend/
 │   ├── src/
-│   │   ├── main/
-│   │   └── test/
-│   └── pom.xml
+│   └── config/
+│
+├── database/
 │
 └── README.md
 ```
 
-*Note: Adjust the folder names and structure to match the actual repository.*
+*Note: The directory structure is illustrative and should be adjusted to match the actual repository.*
 
-## Getting Started
+## Development Scope
 
-### Prerequisites
+This project demonstrates the application of e-commerce and software development concepts, including:
 
-Make sure the following tools are installed:
-
-- Node.js and npm
-- Angular CLI
-- Java Development Kit (JDK)
-- Maven (if using Maven)
-- A configured database
-
-### Installation
-
-**1. Clone the repository**
-
-```bash
-git clone <repository-url>
-cd elys-atsara
-```
-
-**2. Set up the backend**
-
-Navigate to the backend directory:
-
-```bash
-cd backend
-```
-
-Configure the database connection and application properties in `src/main/resources/application.properties`.
-
-Run the Spring Boot application using Maven:
-
-```bash
-mvn spring-boot:run
-```
-
-**3. Set up the frontend**
-
-Open another terminal and navigate to the frontend directory:
-
-```bash
-cd frontend
-```
-
-Install dependencies:
-
-```bash
-npm install
-```
-
-Start the Angular development server:
-
-```bash
-ng serve
-```
-
-Open your browser and navigate to:
-
-```text
-http://localhost:4200
-```
-
-
-
-## Development Objectives
-
-This project demonstrates the practical application of software engineering principles, including:
-
-- Requirements Engineering
-- Requirements Traceability Matrix (RTM)
-- Database Design and Management
-- UML Modeling
+- E-Commerce System Development
+- Product Catalog Management
+- Order Management
+- Database Management
 - Full-Stack Web Development
-- CRUD Operations
-- RESTful API Development
-- Software Testing and Validation
+- Business Process Digitization
+- User Interface and User Experience Design
+
+## Project Purpose
+
+Mariposa Digital aims to demonstrate how digital platforms can modernize traditional retail operations by making rice purchasing more accessible, organized, and efficient for both customers and business administrators.
 
